@@ -8,6 +8,8 @@ import Services from "./Services";
 import Contact from "./Contact";
 import Policy from "./Policy";
 import Error from "./Error";
+import List from "./List";
+import Footer from "./Footer";
 
 import { Route, Routes } from "react-router-dom";
 //import * as auth from "../utils/auth";
@@ -15,6 +17,7 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div className="App">
+      <List />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -23,6 +26,7 @@ function App() {
         <Route path="/policy" element={<Policy />} />
         <Route path="*" element={<Error />}></Route>
       </Routes>
+      <Footer />
     </div>
   );
 }
