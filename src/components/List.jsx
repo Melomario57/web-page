@@ -45,13 +45,6 @@ function List() {
             >
               Contact
             </NavLink>
-            <NavLink
-              to="/policy"
-              className="listItem"
-              activeClassName="activeItem"
-            >
-              Policy
-            </NavLink>
           </div>
         </nav>
 

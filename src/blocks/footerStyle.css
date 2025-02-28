@@ -22,3 +22,32 @@ footer {
   color: white;
   margin-bottom: 0.5em;
 }
+
+@media (max-width: 1024px) {
+  .line {
+    width: 40%;
+  }
+}
+@media (max-width: 768px) {
+  footer {
+    position: relative;
+    margin-top: 10%;
+    width: 97%;
+  }
+}
+@media (max-width: 568px) {
+  .hr {
+    display: none;
+  }
+}
+@media (max-width: 432px) {
+  footer {
+    width: 95.5%;
+  }
+}
+
+@media (max-width: 324px) {
+  .icon {
+    margin-right: 0.5em;
+  }
+}

@@ -6,7 +6,7 @@ import Home from "./Home";
 import About from "./About";
 import Services from "./Services";
 import Contact from "./Contact";
-import Policy from "./Policy";
+
 import Error from "./Error";
 import List from "./List";
 import Footer from "./Footer";
@@ -23,7 +23,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/policy" element={<Policy />} />
+
         <Route path="*" element={<Error />}></Route>
       </Routes>
       <Footer />

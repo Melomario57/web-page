@@ -1,0 +1,51 @@
+.contact {
+  max-width: 990px;
+  width: 90%;
+  margin: 2em auto;
+}
+
+input {
+  width: 100%;
+  padding: 0.7em;
+  margin-bottom: 1em;
+  border: 0.1em solid blue;
+  outline: none;
+  font-size: 1.1rem;
+  height: auto;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: darkblue;
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+}
+
+label {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .contact1 {
+    padding-bottom: 10%;
+  }
+  .contact {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+
+  input {
+    padding-top: 0.5em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact {
+    max-width: 95%;
+  }
+
+  input {
+    font-size: 1rem;
+    padding: 0.4em;
+  }
+}
